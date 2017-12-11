@@ -11,6 +11,10 @@
 - Current Consumption
 - etc...
 
+<h3>First Person View</h3>
+- Camera
+- Video Tx & Rx
+
 <h3>On-Screen Display</h3>
 - Heading 
 - etc...
