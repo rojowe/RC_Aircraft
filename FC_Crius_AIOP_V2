@@ -1,0 +1,49 @@
+MegaPirateNG Firmware
+- 8 Input Channels
+  - Throttle                / A8
+  - Rudder                  / A11
+  - Aileron                 / A9
+  - Elevator                / A10
+    - AUX1 - Flaps          / A12
+    - AUX2 - Retracts       / A13
+    - AUX3 - Nav Lights     / A14
+    - AUX4 -                / A15
+- 3 Servo Output Camera Gimbal
+  - Cam Pitch / Roll / Trigger
+- 4 Serial Ports
+  - debug/BT/OSD/GPS/Telemetry Module
+- 8 Analog Ports
+  - Airspeed/Current/Voltage/LED Controller?
+- 5V I2C
+- ATMega 2500-16AU Microcontroller
+- MPU-6050
+- HMC-5883L
+- MS5611-01BA03 Altimeter
+- USB - UART
+- On-board Logic Level Converter 
+
+Flight Modes
+- Acro
+- Alt Hold
+- Simple
+- Loiter (GPS)
+- Guided (GPS)
+- Position (GPS)
+- Circle (GPS)
+- RTL (GPS)
+- Auto (GPS) 
+- Follow Me (GPS)
+
+Weight 14.5g 
+
+S0 / FTDI 
+- Tx0, Rx0, 
+- Can use BT, shared with USB, cannot be used at the same time
+
+S1 - S3 
+- Rx1, Tx1 for FrSky Telemetry
+- Rx2, Tx2 for GPS
+- Rx3, Tx3 for OSD
+
+
+
