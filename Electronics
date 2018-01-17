@@ -1,0 +1,24 @@
+Lipo Low Voltage @ min. 3.6v per cell....ie: 3s = 10.8v low voltage
+
+FrSky D-Series Rx A1 & A2 can accept a maximum of 3.3v (0-255)
+  - a voltage divider must be used 
+  - A1 will read the Rx internal voltage by way of a built-in 4:1 divider
+  - A2 w/ a 4s Lipo @ 16.8v needs a 6:1 divider allowing (3.3v * 6) 19.8v, seen as 2.8v on A2
+  
+D8R-II plus
+  - A1, A2, & Digital Data Stream
+  - A1 / A2 max 3.3v 
+  - If the two lower pins in the A1 socket are connected via a jumper,
+    the A1 value reported by the receiver will be the voltage level that is sensed across any of the 
+    servo connections 1-8 (which usually means the voltage provided to the receiver via the ESC connection).
+  - digital data port to which a sensor hub FSH-01 can be connected
+  - The internal hardware on this and the D8R-XP receivers is identical and in fact 
+    the XP firmware can be loaded into the D8R-II plus effectively turning it into a D8R-XP.
+  - D8R-XP
+      - it supports the output of RSSI (PWM) and CPPM signals
+      - If CH3 and CH4 are connected by a jumper, CH1 will output CPPM for CH1 through 8, and CH2 will output RSSI (PWM).  
+      - Using CPPM the receiver can be connected e.g. to a flight controller with a single wire.
+
+FSH-01 Sensor Hub
+  - sensors connect to the hub and the hub connects to the Rx Data Port
+  - 
